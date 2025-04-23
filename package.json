@@ -1,6 +1,6 @@
 {
   "name": "libvictor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "NodeJS libvictor SDK",
   "main": "src/index.js",
   "engines": {
