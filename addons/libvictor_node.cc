@@ -34,16 +34,6 @@ Napi::Value Victor::Test(const Napi::CallbackInfo& info) {
     return Napi::Value();
 }
 
-// Napi::Value Victor::Alloc_index(const Napi::CallbackInfo& info) {
-//     Napi::Env env = info.Env();
-
-//     return Napi::Value();
-// };
-// Napi::Value Victor::Load_index(const Napi::CallbackInfo& info) {
-//     Napi::Env env = info.Env();
-
-//     return Napi::Value();
-// };
 Napi::Value Victor::Destroy_index(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
 
