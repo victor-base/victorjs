@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "windows_x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/node_modules/node-addon-api/"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        },
+        {
+            "name": "mac_arm64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/node_modules/node-addon-api/"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
