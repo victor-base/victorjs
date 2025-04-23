@@ -1,4 +1,4 @@
-#include "MyObject.h"
+#include "libvictor_node.h"
 
 using namespace Napi;
 
