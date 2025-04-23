@@ -1,0 +1,41 @@
+{
+  "name": "libvictor",
+  "version": "0.0.1",
+  "description": "NodeJS libvictor SDK",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "cmake-js compile",
+    "rebuild": "cmake-js rebuild",
+    "clean": "npm run clean:c && npm run clean:js",
+    "clean:c": "cmake-js clean",
+    "clean:js": "rimraf dist",
+    "example": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "vector",
+    "library"
+  ],
+  "author": "jkutianski@gmail.com",
+  "license": "LGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-base/victorjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victor-base/victorjs/issues"
+  },
+  "homepage": "https://github.com/victor-base",
+  "dependencies": {
+    "node-addon-api": "^8.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "cmake-js": "^7.3.1",
+    "rimraf": "^6.0.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3"
+  }
+}

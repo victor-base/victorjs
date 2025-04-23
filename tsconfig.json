@@ -1,0 +1,22 @@
+{
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules/**/*", "dist/**/*", "build/**/*"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "allowJs": true,
+        "typeRoots": ["node_modules/@types"],
+        "paths": {
+            "libvictor.node": ["build/libvictor.node"],
+            "libvictor": ["src/libvictor"],
+        },
+        "moduleResolution": "node",
+        "lib": ["ESNext"],
+        "target": "ESNext",
+        "module": "CommonJS",
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+    }
+}
